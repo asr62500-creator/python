@@ -27,7 +27,7 @@ print(t[-5:-1])
 
 print(t[0]) # return element at that index
 
-#------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
 #Tuples Methods => "Count" & "Index"
 print(t.count(25))  # Count occurrences of 25 in the tuple
 print(t.index(25))  # Find the index of the first occurrence of 25 in the tuple

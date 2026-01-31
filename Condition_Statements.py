@@ -7,6 +7,7 @@ if(age>=18):
 else:
     print("Person is not eligible to vote \n as well as for driving")
 
+#-----------------------------------------------------------------------------------
 #If-elif-else condito
 signal="red"
 
@@ -17,10 +18,11 @@ elif(signal=="yellow"): #elif can be written multiple time
 else:
     print("Go")
 
-
+#-----------------------------------------------------------------------------------
 # **INDENTATION**= i) Space before each print 
 #                  ii) (Used instead of braces/brackets "{}" as we used in C++)
 
+#-----------------------------------------------------------------------------------
 # Nesting IF
 age=int(input("Enter age of Person: "))
 
