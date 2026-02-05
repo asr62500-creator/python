@@ -20,7 +20,7 @@ print(movies)
 # print(movies)
 
 #--------------------------------------------------------------------
-# WAP to chec if a list contains a Paloindrome of elements;
+# WAP to check if a list contains a Paloindrome of elements;
 list1 = [1, 2, 3, 2, 1] 
 list2 = [1, 2, 3, 4, 5]
 list3 = ["m", "a", "d", "a", "m"]

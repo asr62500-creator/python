@@ -17,17 +17,17 @@ tup3=(1,) # Valid tuple, returns tuple data type
 print(type(tup3))
 
 #-----------------------------------------------------------------------------------
-
-t=("Amit", 25, "CS", 25, "Suman", 100)
-print(t)
+# In Python, The Tuples can store elements of different datatypes(integers, floats, strings, etc...) same as List
+tup4=("Amit", 25, "CS", 25, "Suman", 100)
+print(tup4)
 
 # Slicing
-print(t[1:4])
-print(t[-5:-1])  
+print(tup4[1:4])
+print(tup4[-5:-1])  
 
-print(t[0]) # return element at that index
+print(tup4[0]) # return element at that index
 
 #-----------------------------------------------------------------------------------
-#Tuples Methods => "Count" & "Index"
-print(t.count(25))  # Count occurrences of 25 in the tuple
-print(t.index(25))  # Find the index of the first occurrence of 25 in the tuple
+#Tuples Methods => Two methods 1."Count" & 2."Index"
+print(tup4.count(25))  # Count occurrences of 25 in the tuple
+print(tup4.index(25))  # Find the index of the first occurrence of 25 in the tuple
